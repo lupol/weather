@@ -1,0 +1,111 @@
+.weather-contaiber {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #ebebeb;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+  height: 40px;
+  background: #fbfbfb;
+}
+
+.title-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forcast {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.date {
+  padding: 15px;
+  font-size: 14px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temperature {
+  font-size: 30px;
+  font-weight: bold;
+}
+.temperature span {
+  margin-left: 5px;
+}
+
+.current-weather-additional {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: #fbfbfb;
+  width: 100%;
+}
+
+.info-message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.tab {
+  padding: 5px 10px;
+  border: 1px solid #e3e3e3;
+  border-left: none;
+  cursor: pointer;
+}
+
+.active-tab {
+  background: #fbfbfb;
+  border-bottom: 1px solid transparent;
+  font-weight: bold;
+}
+
+.tabs-content {
+  display: flex;
+  background: #fbfbfb;
+}
+
+.chart-hint {
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+}
